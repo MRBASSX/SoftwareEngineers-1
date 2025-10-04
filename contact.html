@@ -4,8 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .head-1{ 
+            color: blue;
+            font-size: 50px; 
+            text-align: center;
+            font-style: italic;
+        }
+            
+        .head-2{ 
+            color: rgb(25, 25, 79);
+            font-size: 50px; }
+
+        .article-1 { 
+            color : red ; 
+            font-size: 50px;}
+
+         .article-2 { color : rgb(186, 49, 49) ; font-size: 50px;}
+          .footer-1 { color: yellow;font-size: 50px; }
+        .footer-2 { color: rgb(134, 134, 46);font-size: 50px; }
+           body{background-color: aqua;}
+
+
+
+           .parent{
+            height: auto;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            gap: 15px;
+            flex-wrap: wrap;
+            
+           }
+
+           .red{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            
+          
+           }
+
+           .green{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(0, 255, 17);
+           
+          
+           }
+
+           .yellow{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(217, 255, 0);
+           
+           }
+            .blue{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(7, 2, 71);
+           
+            
+           }
+          
+    </style>
+
 </head>
 <body>
+
+
+<header  class="head-1" >
+Header
+</header>
+
+<header  class="head-2" >
+Header
+</header>
+
+<article  class="article-1">
+Article
+</article>
+<article  class="article-2">
+Article
+</article>
+
+<footer class="footer-1">
+    Footer
+</footer>
+<footer   class="footer-2"> 
+    Footer
+</footer>
+
+<div class="parent">
+      <div class="red"></div>
+    
+    <div class="yellow"></div>
+     <div class="blue"></div>
+  
+    <div class="green"></div>
+    
+
+</div>
+
     
 </body>
 </html>
