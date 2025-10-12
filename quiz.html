@@ -12,7 +12,7 @@
         }
         .nav{
             display: flex;
-            justify-content:space-between;
+            justify-content:space-around;
             align-items: center;
             background-color: black;
             color: aliceblue;
@@ -24,8 +24,6 @@
         }
         .nav ul{
             display: flex;
-            justify-items: center;
-            align-items: center;
             gap: 20px;
             list-style: none;
         }
@@ -34,18 +32,17 @@
         .kom{
             display: flex;
             height: 700px;
-           
-        
-
+            padding: 12px;
         }
 
 
         .main-content{
             display: flex;
             justify-content:center;
-            margin-top: 20px;
+            margin: 20px;
             flex-wrap: wrap;
             gap: 20px;
+
 
         }
 
@@ -54,17 +51,22 @@
             font-size: 25px;
             display: flex;
             flex-direction: column;
-            row-gap: 50px;
+            justify-content: space-between;
+            align-items:center;
+            height: 100%;
+            /* row-gap: 100PX; */
             list-style: none;
             border: 1px solid gray;
-            padding: 20px 200px 200px 200px;
+            padding: 20px 200px ;
+
+
             box-shadow: inset 0px 0px 20px red;
             
         }
 
         .card{
             border: 1px solid grey;
-            padding: 10px;
+            padding: 10px;                          
             text-align: center;
 
 
@@ -82,9 +84,95 @@
             box-shadow: inset 0px 0px 20px red;
             flex-grow: 1;
         }
-        
+        .footer-1{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .footer-1 ul{
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            row-gap: 50px;
+            flex-wrap: wrap;
+
+        }
+    .footer-2{
+        display: flex;
+        justify-content: space-around;
+      flex-wrap: wrap;
+    }
+        .footer-2 ul{
+            display: flex;
+            list-style: none;
+            column-gap: 50px;
+            margin-top: 20px    ;
+            flex-wrap: wrap;
+        }
+
+        .footer {
+            
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            height: 500px;
+            flex-wrap: wrap;
+        }
+        .form{
+            display: flex;
+        }
+        .form [ type = "email"]{
+            padding: 10px;
+            border-radius: 1rem;
+            font-size: 20px;
+
+             &:hover{
+
+                box-shadow: inset 0px 0px 20px green;
+              
+            }
+        }
+
+        .form [ type = "submit"]{
+            padding: 10px;
+            border-radius: 1rem;
+            box-shadow: inset 0px 0px 20px red;
+             font-size: 20px;
+
+ 
+ 
+            &:hover{
+
+                box-shadow: inset 0px 0px 20px green;
+               
+            }
+        }
 
 
+        body{
+                background-color: red;
+            }
+
+        @media  (max-width:600px){
+
+            body{
+                background-color: rgb(0, 255, 55);
+            }
+            
+        }
+
+        @media  (min-width:601px){
+
+            body{
+                background-color: rgb(5, 15, 109);
+            }
+            
+        }
     </style>
 </head>
 <body>
@@ -117,7 +205,12 @@
                     <li>List 1</li>
                     <li>List 2</li>
                     <li>List 3</li>
+                    <li>List 4</li> 
+                    <li>List 1</li>
+                    <li>List 2</li>
+                    <li>List 3</li>
                     <li>List 4</li>
+
                 </ul>
             </div>
 
@@ -153,6 +246,76 @@
        </div>
 
         </main>
+
+
+        <footer class="footer">
+            <div class="footer-1">
+                <ul>
+                    <li>contact</li>
+                    <li>Service</li>
+                    <li>About</li>
+                    
+
+                </ul>
+                 <ul>
+                    <li>contact</li>
+                    <li>Service</li>
+                    <li>About</li>
+                    
+
+                </ul>
+
+                 <ul>
+                    <li>contact</li>
+                    <li>Service</li>
+                    <li>About</li>
+                    
+
+                </ul>
+
+                 <ul>
+                    <li>contact</li>
+                    <li>Service</li>
+                    <li>About</li>
+                    
+
+                </ul>
+
+                <ul>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    
+
+                </ul>
+
+                <ul>
+                    <li style="font-size: 20px;">Subscribe</li>
+                    <form action="/" method="post" class="form">
+                        <li><input type="email" name="" id="" placeholder="Type Email Here"></li>
+                        <li><input type="submit" value="Subscribe"></li>
+                    </form>
+                    
+
+                </ul>
+
+
+
+            </div>
+<hr style="width: 70%; align-self: center;">
+            <div class="footer-2">
+                <ul>
+                    <li>@ 2025</li>
+                </ul>
+                <ul>
+                    <li>F</li>
+                    <li>G</li>
+                    <li>X</li>
+                    <li>Y</li>
+
+                </ul>
+            </div>
+        </footer>
     
 </body>
 </html>
