@@ -16,7 +16,9 @@ send.onclick = function Test(e) {
   
 
     let Number =parseFloat(EvenOrOdd.value);
+
     let IsEven = Number%2 === 0
+    
      IsEven ? display.innerHTML =("Yeah,Is Even") :display.innerHTML = ("Nope, Is Odd");
 
      
