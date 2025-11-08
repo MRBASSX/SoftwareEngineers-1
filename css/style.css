@@ -1,0 +1,51 @@
+#begin1{
+    text-align: center;
+    color: rgb(75, 30, 6);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#begin2{
+    text-align: end;
+    color: rgb(6, 23, 75);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#begin3{
+    text-align: start;
+    color: rgb(19, 75, 6);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.begin3{
+    text-align: start;
+    color: rgb(19, 75, 6);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.begin2{
+    text-align: end;
+    color: rgb(6, 23, 75);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.begin1{
+    text-align: center;
+    color: rgb(75, 30, 6);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+

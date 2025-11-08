@@ -3,13 +3,17 @@
 <head>
 
     <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
 
         *{
             margin: 0px;
         }
         .nav-1 {
-            background-color: rgb(19, 16, 16);
+           background-image: url('images/Feature\ Image.png');
+           /* background-position: center;
+           background-size: cover;
+           background-repeat: no-repeat; */
             color: rgb(199, 184, 184);
             height: 70px;
             font-size: 20px;
@@ -31,6 +35,24 @@
        .row ul li{
             list-style: none;
         }
+
+
+             .row  li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .cover{
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 750px;
+            background-image: url('images/pexels-kovyrina-937980.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
     </style>
 
 </head>
@@ -42,9 +64,9 @@
 
     <nav class="nav-1  row">
         <ul class="row" >
-           <li>Shopify</li>
-            <li>Solutions</li>
-             <li>Pricing</li>
+           <li><a href="index.html" class="begin1">Shopify</a></li>
+            <li><a href="service.html">Services</a></li>
+             <li><a href="contact.html">Contact</a></li>
               <li>Resources</li>
                <li>Enterprise</li>
                 <li>Whats new</li>
@@ -56,7 +78,8 @@
         </ul>
     </nav>
 
-     <ul class="row" >
+<div class="cover">
+    <ul class="row" >
            <li>Shopify</li>
             <li>Solutions</li>
              <li>Pricing</li>
@@ -92,6 +115,7 @@
         </div>
     </div>
 
+</div>
 
 
 
