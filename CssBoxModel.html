@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,17 @@
     <script src="https://kit.fontawesome.com/f85bf48a66.js" crossorigin="anonymous"></script>
 
     <style>
+        .container {
 
-        .container{
-           
-            height: 600px;
-            border:1px solid gray;
+            height: auto;
+            border: 1px solid gray;
             padding: 12px;
-           background-color: #030303;
-            
+            background-color: #030303;
+
         }
 
-        .top{
-            height: 150px;
+        .top {
+            height: auto;
             background-color: #030303;
             display: flex;
             justify-content: space-around;
@@ -28,9 +28,9 @@
             color: white;
         }
 
-        .release{
-           width: 450px;
-           height: 45px;
+        .release {
+            width: 450px;
+            height: 45px;
             /* background-color: #212121; */
             display: flex;
             align-items: center;
@@ -41,73 +41,228 @@
             box-shadow: inset 0px 0px 89px #212121;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-            &:hover{
+            &:hover {
 
-                 background-color: #212121;
+                background-color: #212121;
             }
 
         }
 
-        .top a{
+        .top,
+        .top-single a {
             color: white;
             text-decoration: none;
         }
 
-        .m-5{
+        .m-5 {
             margin: 20px;
         }
 
-        .single-right{
+        .single-right {
             display: flex;
             column-gap: 12px;
         }
-        .inner-single-right{
+
+        .inner-single-right {
             display: flex;
             column-gap: 12px;
+
+        }
+
+        .back {
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 12px;
+            background-color: #030303;
+        }
+
+        .forward {
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 12px;
+            background-color: #030303;
+        }
+
+        .more {
+
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 12px;
+            background-color: #030303;
+        }
+
+        .singles-left {
+            font-size: 50px;
+        }
+
+        .top-single {
+            height: auto;
+            background-color: #030303;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            margin: 50px 100px;
+            color: white;
+        }
+
+        .image{
+            width: 200px;
+            height: 300px;
+        }
+        .top-single-main{
             
+            display: flex;
+            flex-direction: column;
+             height: auto;
         }
     </style>
 
 
 </head>
+
 <body>
 
     <div class="container">
-        
+
         <div class="top">
-           <a href="index.html"><div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div></a>
-           <a href="index.html"> <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div></a>
-        <a href="index.html"> <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div></a>
+            <a href="index.html">
+                <div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div>
+            </a>
+            <a href="index.html">
+                <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div>
+            </a>
+            <a href="index.html">
+                <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div>
+            </a>
         </div>
 
 
-            <div class="top">
-           <a href="index.html"><div class="singles-left">New albums & singles</div></a>
-           <div class="single-right">
-             <a href="index.html"> <div class="">More</div></a>
-           <div class="inner-single-right">
-            <div class="back"><i class="fa-solid fa-circle-chevron-left"></i></div>
-            <div class="forward"><i class="fa-solid fa-circle-chevron-right"></i></div>
-           </div>
-           </div>
-          
+    <div class="top-single-main">
+           <div class="top-single">
+            <a href="index.html">
+                <div class="singles-left">New albums & singles</div>
+            </a>
+            <div class="single-right">
+                <a href="index.html">
+                    <div class="more">More</div>
+                </a>
+                <div class="inner-single-right">
+                    <div><i class="fa-solid fa-circle-chevron-left back"></i></div>
+                    <div class="forward"><i class="fa-solid fa-circle-chevron-right"></i></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="top-single">
+            <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+        </div>
+    </div>
+
+
+
+       <div class="top-single-main">
+           <div class="top-single">
+            <a href="index.html">
+                <div class="singles-left">New albums & singles</div>
+            </a>
+            <div class="single-right">
+                <a href="index.html">
+                    <div class="more">More</div>
+                </a>
+                <div class="inner-single-right">
+                    <div><i class="fa-solid fa-circle-chevron-left back"></i></div>
+                    <div class="forward"><i class="fa-solid fa-circle-chevron-right"></i></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="top-single">
+            <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+             <div class="card">
+                <div class="image"><img src="images/Feature Image.png" alt="" height="100%" width="100%"></div>
+                <h3>New albums & singles</h3>
+                <p>Moods & genres</p>
+            </div>
+        </div>
+    </div>
+
+        <div class="top">
+            <a href="index.html">
+                <div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div>
+            </a>
+            <a href="index.html">
+                <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div>
+            </a>
+            <a href="index.html">
+                <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div>
+            </a>
         </div>
 
-            <div class="top">
-           <a href="index.html"><div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div></a>
-           <a href="index.html"> <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div></a>
-            <a href="index.html"> <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div></a>
+
+        <div class="top">
+            <a href="index.html">
+                <div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div>
+            </a>
+            <a href="index.html">
+                <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div>
+            </a>
+            <a href="index.html">
+                <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div>
+            </a>
         </div>
+    </div> 
 
 
-            <div class="top">
-           <a href="index.html"><div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div></a>
-           <a href="index.html"> <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div></a>
-            <a href="index.html"> <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div></a>
-        </div>
-        </div>
-        
-     
-    
+
 </body>
+
 </html>
