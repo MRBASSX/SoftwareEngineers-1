@@ -4,12 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Box Model</title>
+
+
+    <script src="https://kit.fontawesome.com/f85bf48a66.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        .container{
+           
+            height: 600px;
+            border:1px solid gray;
+            padding: 12px;
+           background-color: #030303;
+            
+        }
+
+        .top{
+            height: 150px;
+            background-color: #030303;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+
+        .release{
+           width: 450px;
+           height: 45px;
+            /* background-color: #212121; */
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            border-radius: 1rem;
+            color: white;
+            font-size: larger;
+            box-shadow: inset 0px 0px 89px #212121;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            &:hover{
+
+                 background-color: #212121;
+            }
+
+        }
+
+        .top a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .m-5{
+            margin: 20px;
+        }
+
+        .single-right{
+            display: flex;
+            column-gap: 12px;
+        }
+        .inner-single-right{
+            display: flex;
+            column-gap: 12px;
+            
+        }
+    </style>
+
+
 </head>
 <body>
 
     <div class="container">
-        This is Good 
-    </div>
+        
+        <div class="top">
+           <a href="index.html"><div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div></a>
+           <a href="index.html"> <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div></a>
+        <a href="index.html"> <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div></a>
+        </div>
+
+
+            <div class="top">
+           <a href="index.html"><div class="singles-left">New albums & singles</div></a>
+           <div class="single-right">
+             <a href="index.html"> <div class="">More</div></a>
+           <div class="inner-single-right">
+            <div class="back"><i class="fa-solid fa-circle-chevron-left"></i></div>
+            <div class="forward"><i class="fa-solid fa-circle-chevron-right"></i></div>
+           </div>
+           </div>
+          
+        </div>
+
+            <div class="top">
+           <a href="index.html"><div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div></a>
+           <a href="index.html"> <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div></a>
+            <a href="index.html"> <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div></a>
+        </div>
+
+
+            <div class="top">
+           <a href="index.html"><div class="release"> <i class="fa-solid fa-arrow-up-right-from-square m-5"></i> New Releases</div></a>
+           <a href="index.html"> <div class="release"><i class="fa-solid fa-chart-line m-5"></i>Charts</div></a>
+            <a href="index.html"> <div class="release"> <i class="fa-solid fa-face-smile-beam m-5"></i> Moods & genres</div></a>
+        </div>
+        </div>
+        
+     
     
 </body>
 </html>
