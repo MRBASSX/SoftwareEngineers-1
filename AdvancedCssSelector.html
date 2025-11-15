@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Css Selector Properties</title>
+
+    <style>
+
+        .parent >::before{
+            content: "I Am  Okay";
+        }
+
+
+    .parent>:nth-child(3){
+
+
+        padding: 10px;
+        background-color: blue;
+        border-radius: red;
+
+
+        &:hover{
+
+        padding: 10px;
+        background-color: rgb(152, 152, 217);
+        color: rgb(5, 9, 221);
+        border-radius: red;
+
+        }
+
+     }
+
+
+     .parent2>:nth-child(4){
+
+
+        padding: 10px;
+        background-color: blue;
+        border-radius: red;
+
+
+        &:hover{
+
+        padding: 10px;
+        background-color: rgb(152, 152, 217);
+        color: rgb(5, 9, 221);
+        border-radius: red;
+
+        }
+
+     }
+
+    </style>
+
+
+</head>
+<body>
+
+    <p>This is Nice Paragraph</p>
+
+
+
+<div class="parent"> This is A test
+
+<div class="child">This is Another Test</div>
+<div class="child">This is Another Test</div>
+<div class="child">This is Another Test</div>
+<div class="child">This is Another Test</div>
+
+</div>
+
+<div class="parent2"> This is A test
+
+<div class="child">This is Another Test</div>
+<div class="child">This is Another Test</div>
+<div class="child">This is Another Test</div>
+<div class="child">This is Another Test</div>
+
+</div>
+
+
+<button class="MyButton">
+    
+    <button class="MyButton">Success</button>
+
+    <button class="MyButton">Success</button>
+
+    <button class="MyButton">Success</button>
+</button>
+
+
+
+
+    
+</body>
+</html>
