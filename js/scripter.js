@@ -28,3 +28,5 @@ let king = 900 > 100;
 console.log(!king)
 !king ? console.log(first + " Number is Small") : console.log(first + " Number Is Great")
 
+
+
