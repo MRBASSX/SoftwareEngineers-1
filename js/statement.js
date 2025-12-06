@@ -6,7 +6,6 @@
 let password = "123456789"  == prompt("Enter Your Password")
 let email = "admin@gmail.com"  == prompt("Enter Your Email")
 // Or 
-
 // if (password == true  && email == true) {
 //     // code to be executed if condition is true
 //     alert("Good ,Your Login Successfully")
